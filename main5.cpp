@@ -6,6 +6,8 @@
 using namespace std;
 
 int main () {
+   // srand was added because srand seeds the random number generator
+   // time (0) was added because it provides the current time as the seed
     srand(time(0));
     vector<string> coinFlips;
     string coinFlipResult = "";
